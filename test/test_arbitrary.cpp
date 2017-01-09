@@ -1,7 +1,7 @@
 #ifdef BE_TEST
 
 #include "arbitrary_builtins.hpp"
-#include <catch.hpp>
+#include <catch/catch.hpp>
 #include <vector>
 #include <set>
 #include <map>
