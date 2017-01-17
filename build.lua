@@ -2,7 +2,7 @@ module 'testing' {
    lib {
       src {
          'src/*.cpp',
-         pch_src 'src/pch.cpp'
+         --pch_src 'src/pch.cpp'
       },
       define 'BE_TESTING_IMPL',
       link_project 'core-id-with-names'
