@@ -1,4 +1,4 @@
-﻿#ifdef BE_TEST
+#ifdef BE_TEST
 
 #include "arbitrary_builtins.hpp"
 #include <catch/catch.hpp>
