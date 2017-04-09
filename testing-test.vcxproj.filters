@@ -9,6 +9,7 @@
     <ClCompile Include="test\test_arbitrary.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="test\version.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test\test_main.cpp" />

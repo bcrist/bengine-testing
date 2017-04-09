@@ -57,6 +57,7 @@
     <ClInclude Include="include\benchmark.hpp" />
     <ClInclude Include="include\pch.hpp" />
     <ClInclude Include="include\testing_autolink.hpp" />
+    <ClInclude Include="include\version.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\pch.cpp">
