@@ -8,8 +8,7 @@
 #include <limits>
 #include <random>
 
-namespace be {
-namespace testing {
+namespace be::testing {
 
 template <typename T>
 class Arbitrary<T, std::enable_if_t<std::is_integral<T>::value && std::is_signed<T>::value && sizeof(T) != 1>> final : public ArbitraryBase<T> {
@@ -240,6 +239,5 @@ private:
 // TODO std::array, T[N], tuple
 
 } // be::testing
-} // be
 
 #endif

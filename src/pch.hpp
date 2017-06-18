@@ -1,6 +1,6 @@
 #pragma once
-#ifndef BE_PCH_HPP_
-#define BE_PCH_HPP_
+#ifndef BE_TESTING_PCH_HPP_
+#define BE_TESTING_PCH_HPP_
 
 // #ifndef BE_PCH_NO_DEPS
 // #  include <gsl/gsl>

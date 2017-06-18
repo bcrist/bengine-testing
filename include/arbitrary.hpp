@@ -5,8 +5,7 @@
 #include <be/util/xorshift_128_plus.hpp>
 #include <vector>
 
-namespace be {
-namespace testing {
+namespace be::testing {
 
 template <typename T, typename Enable = void>
 class Arbitrary;
@@ -65,9 +64,8 @@ protected:
 
    U64 seed_;
    std::size_t generation_;
-   rnd::xs128p rnd_;
+   util::xs128p rnd_;
 };
-
 
 ///////////////////////////////////////////////////////////////////////////////
 /// \brief  Generates arbitrary objects of a particular type.
@@ -82,7 +80,6 @@ public:
    Arbitrary(U64 seed = 0) : ArbitraryBase(seed) { }
 };
 
-} // be::perf
-} // be
+} // be::testing
 
 #endif

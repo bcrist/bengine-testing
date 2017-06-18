@@ -55,7 +55,7 @@
     <ClInclude Include="include\arbitrary.hpp" />
     <ClInclude Include="include\arbitrary_builtins.hpp" />
     <ClInclude Include="include\benchmark.hpp" />
-    <ClInclude Include="include\pch.hpp" />
+    <ClInclude Include="src\pch.hpp" />
     <ClInclude Include="include\testing_autolink.hpp" />
     <ClInclude Include="include\version.hpp" />
   </ItemGroup>

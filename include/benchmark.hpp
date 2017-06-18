@@ -14,8 +14,7 @@
 #include <boost/accumulators/statistics/kurtosis.hpp>
 #include <boost/accumulators/statistics/skewness.hpp>
 
-namespace be {
-namespace testing {
+namespace be::testing {
 namespace acc = boost::accumulators;
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -137,6 +136,5 @@ private:
 };
 
 } // be::testing
-} // be
 
 #endif
