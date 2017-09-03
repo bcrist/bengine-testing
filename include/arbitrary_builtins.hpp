@@ -89,7 +89,7 @@ private:
             case 9: return std::numeric_limits<value_type>::quiet_NaN();
          }
       }
-      
+
       if (dimension <= 2) {
          std::uniform_int_distribution<int> dist(0, 100);
          return static_cast<value_type>(dist(rnd_));
@@ -126,7 +126,7 @@ public:
 
          vec.push_back();
          vec.push_back();
-         
+
          value_type& first = vec.front();
          value_type& second = vec.back();
 

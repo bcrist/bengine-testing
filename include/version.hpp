@@ -6,7 +6,7 @@
 
 #define BE_TESTING_VERSION_MAJOR 0
 #define BE_TESTING_VERSION_MINOR 1
-#define BE_TESTING_VERSION_REV 3
+#define BE_TESTING_VERSION_REV 4
 
 /*!! include('common/version', 'be::testing') !! 6 */
 /* ################# !! GENERATED CODE -- DO NOT MODIFY !! ################# */

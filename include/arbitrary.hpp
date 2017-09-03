@@ -22,7 +22,7 @@ public:
         generation_(0),
         rnd_(seed)
    { }
-   
+
    value_type operator()() {
       ++generation_;
       auto self = static_cast<Arbitrary<T>*>(this);
