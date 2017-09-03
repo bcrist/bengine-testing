@@ -214,7 +214,7 @@ private:
 template <typename T, typename U>
 class Arbitrary<std::pair<T, U>> final : public ArbitraryBase<std::pair<T, U>> {
 public:
-   Arbitrary(U64 seed = 0) : ArbitraryBase(seed) { }
+   Arbitrary(U64 seed = 0) : ArbitraryBase<std::pair<T, U>>(seed) { }
 
    std::vector<std::pair<T, U>> split(std::pair<T, U> container) {
       std::vector<T> vec;
@@ -229,8 +229,8 @@ public:
 private:
    friend class ArbitraryBase<std::pair<T, U>>;
    std::pair<T, U> get_(std::size_t dimension) {
-      Arbitrary<T> t_arb{rnd_()};
-      Arbitrary<U> u_arb{rnd_()};
+      Arbitrary<T> t_arb { this->rnd_() };
+      Arbitrary<U> u_arb { this->rnd_() };
       return std::make_pair(t_arb(dimension), u_arb(dimension));
    }
 };
