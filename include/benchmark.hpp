@@ -2,7 +2,6 @@
 #ifndef BE_TESTING_BENCHMARK_HPP_
 #define BE_TESTING_BENCHMARK_HPP_
 
-#include "testing_autolink.hpp"
 #include <be/core/time.hpp>
 #include <boost/accumulators/accumulators.hpp>
 #include <boost/accumulators/statistics/stats.hpp>

@@ -23,9 +23,6 @@
     <ClInclude Include="include\benchmark.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\testing_autolink.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\version.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
