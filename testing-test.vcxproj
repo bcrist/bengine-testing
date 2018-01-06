@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>testing-test</ProjectName>
     <RootNamespace>testing</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <ProjectGuid>{22CA0809-361C-4800-9444-59A8B78A20C1}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
